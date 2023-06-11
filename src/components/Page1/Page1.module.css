@@ -1,0 +1,117 @@
+.page1 {
+    max-width: 1200px;
+    margin: 0 auto; 
+    background: #E5E5E5; 
+}
+.page1Image {
+    display: flex;
+    justify-content: space-around;
+}
+.page1Img {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem; 
+    width: 200px;
+    height: 70px;
+}
+.page1ColMain {
+    display: flex;
+    justify-content: space-around;
+}
+.page1ColLeft, .page1ColRight {
+    display: flex;
+    width: 50%;
+}
+.page1ColLeft {
+     justify-content: flex-end;
+}
+.page1ColRight {
+    display: flex;
+    flex-direction: column;
+}
+.page1Col1, .page1Col2 {
+    display: flex;
+}
+.page1ColImg1 {
+    margin-right: 1.5rem;
+    height: 548px;
+}
+.page1ColImg {
+    height: 250px;
+}
+.page1ColImg:nth-child(odd) {
+   margin-right: 1.5rem;
+}
+.page1ColImg:first-child {
+   margin-bottom: 1.5rem;
+}
+.page1Col h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.mainLeft {
+    flex-direction: column;
+}
+.mainLeft h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 74px;
+    line-height: 55px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+}
+.mainLeft p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    text-align: left; 
+    margin-left: 2.5rem;
+}  
+.mainButton {
+    margin-left: 2.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    border-top-color: rgb(177, 174, 177);
+    cursor: pointer;
+    font-size: 24px;
+    background-color: rgb(245, 241, 245);
+    width: 200px;
+}
+.mainImg {
+    margin-left: 2.5rem;
+}
+/*
+@media (min-width: 1024px) {
+    .main h1{
+        text-align: center;
+        font-size: 48px;
+        margin-top: 0;;
+    }
+    
+}
+@media (min-width: 768px) {   
+    .mainImages {
+        display: none;
+    }
+    .main h1{
+        text-align: center;
+    }
+}
+@media (min-width: 425px) {
+    .main h1{
+        text-align: center;
+    }
+}*/

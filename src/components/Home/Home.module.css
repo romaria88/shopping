@@ -1,0 +1,70 @@
+.main {
+    max-width: 1200px;
+    overflow: hidden;
+    margin: 0 auto; 
+    background: rgb(216, 213, 216);
+    display: flex;
+}
+.mainLeft, .mainRight {
+    display: flex;
+    width: 50%;
+}
+.mainLeft {
+    flex-direction: column;
+}
+.mainLeft h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 74px;
+    line-height: 55px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+}
+.mainLeft p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    text-align: left; 
+    margin-left: 2.5rem;
+}  
+.mainButton {
+    margin-left: 2.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    border-top-color: rgb(177, 174, 177);
+    cursor: pointer;
+    font-size: 24px;
+    background-color: rgb(245, 241, 245);
+    width: 200px;
+}
+.mainImg {
+    margin-left: 2.5rem;
+}
+/*
+@media (min-width: 1024px) {
+    .main h1{
+        text-align: center;
+        font-size: 48px;
+        margin-top: 0;;
+    }
+    
+}
+@media (min-width: 768px) {   
+    .mainImages {
+        display: none;
+    }
+    .main h1{
+        text-align: center;
+    }
+}
+@media (min-width: 425px) {
+    .main h1{
+        text-align: center;
+    }
+}*/

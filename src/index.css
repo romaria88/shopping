@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+}
+.hooter{
+  background: #000;
+}
+.hooter p{
+  color: white;
+  text-align: center;
+}
+.hooter h3{
+  color: white;
+  text-align: center;
+}

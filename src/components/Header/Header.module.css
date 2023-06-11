@@ -1,0 +1,79 @@
+.header {
+    background: rgb(216, 213, 216);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    grid-gap: 2rem;
+    justify-content: space-between;
+    position: relative;
+}
+.headerCatalog {
+    display: flex;
+}
+.headerCatalog button, .buttonLink {
+    display: flex;
+    color: black;
+    margin: auto 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    border-top-color: rgb(177, 174, 177);
+    cursor: pointer;
+    font-size: 24px;
+    background-color: rgb(245, 241, 245);
+}
+.headerLogo {
+    display: flex; 
+}
+.headerLogo h3 {
+   margin-left: 0.5rem;
+   margin-right: 0.5rem;
+}
+.logoImg {
+    margin-top: 0.3rem;
+    width: 1.2rem;
+    height: 0.8rem;
+}
+.logoName {
+   font-size: 16px;
+   margin-top: 0;
+   margin-left: 1rem;
+   text-transform: uppercase;
+}
+.img1 {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.headerButton {
+    display: flex;
+}
+.button1, .button2 {
+    display: flex;
+}
+.button1 p {
+    margin-right: 1.5rem;
+}
+.button1 p, .button2 p {
+   cursor: pointer;
+}
+    
+/*
+@media (min-width: 1024px) {
+    .header {
+        justify-content: center;
+    }
+}
+@media (min-width: 425px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+    .headerCatalog button {
+        width: auto;
+        font-size: 18px;
+    }
+}
+*/

@@ -1,0 +1,35 @@
+.footer {
+    padding-top: 1rem;
+    background: #f8f6f6;
+    margin: 0 auto; 
+    max-width: 1200px;
+    text-align:  left;
+    display: flex;
+    justify-content: center;	
+}
+.footerLogo {
+    display: flex;
+}
+.footer1 {
+    width: 365px;
+}
+.footer1, .footer2, .footer3 {
+   margin-right: 5rem;
+}
+.mediaLogo {
+    display: flex;
+    justify-content: column;	
+}
+.mediaImgLogo {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.logoImg {
+    margin-top: 0.3rem;
+    width: 1.2rem;
+    height: 0.8rem;
+} 
+ 
